@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Odoo" type="PythonConfigurationType" factoryName="Python">
+    <module name="ide" />
+    <option name="ENV_FILES" value="" />
+    <envs>
+      <env name="PYTHONUNBUFFERED" value="1" />
+    </envs>
+    <option name="SDK_HOME" value="$USER_HOME$/venv-odoo-19.0/bin/python" />
+    <option name="WORKING_DIRECTORY" value="$USER_HOME$/odoo-dev/odoo" />
+    <option name="SCRIPT_NAME" value="$USER_HOME$/odoo-dev/odoo/odoo-bin" />
+    <option name="PARAMETERS" value="-c $USER_HOME$/odoo-dev/ch01-work/myodoo.cfg --dev all" />
+  </configuration>
+</component>
